@@ -1,5 +1,5 @@
 import { Feed } from "feed";
-import { getBlogPosts } from "app/lib/posts";
+/*import { getBlogPosts } from "app/lib/posts";*/
 import { metaData } from "app/config";
 import { NextResponse } from "next/server";
 
@@ -45,7 +45,7 @@ export async function GET(
     },
   });
 
-  const allPosts = await getBlogPosts();
+  /*const allPosts = await getBlogPosts();
 
   allPosts.forEach((post) => {
     const postUrl = `${BaseUrl}blog/${post.slug}`;
@@ -65,6 +65,7 @@ export async function GET(
       date: new Date(post.metadata.publishedAt),
     });
   });
+  */
 
   const responseMap: Record<string, { content: string; contentType: string }> =
     {

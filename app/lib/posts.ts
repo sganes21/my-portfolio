@@ -50,10 +50,10 @@ function getMDXData(dir: string) {
   });
 }
 
-export function getBlogPosts() {
+/*export function getBlogPosts() {
   return getMDXData(path.join(process.cwd(), "content"));
 }
-
+*/
 export function formatDate(date: string, includeRelative = false) {
   let currentDate = new Date();
   if (!date.includes("T")) {

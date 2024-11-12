@@ -113,6 +113,19 @@ h6 {
   margin-bottom: 1.25em !important;
 }
 
+/*.profile-photo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.profile-photo {
+  border-radius: 50%;
+  object-fit: cover;
+}
+*/
 pre::-webkit-scrollbar {
   display: none;
 }
